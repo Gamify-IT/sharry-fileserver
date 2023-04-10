@@ -78,7 +78,7 @@ services:
       - POSTGRES_URL=postgresql://fileserver-db:5432/postgres
       - BASE_URL=http://localhost
       - KEYCLOAK_CLIENT_ID=fileserver
-      - KEYCLOAK_CLIENT_SECRET=tA0Hqt2VdhJizgBW0ZbIdPPqT4nCprkJ
+      - KEYCLOAK_CLIENT_SECRET=test-client-secret
       - KEYCLOAK_ISSUER=http://localhost/keycloak/realms/Gamify-IT
       - KEYCLOAK_URL=http://keycloak/keycloak/realms/Gamify-IT
 
